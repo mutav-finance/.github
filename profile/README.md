@@ -15,15 +15,6 @@ Onchain rental guarantee infrastructure — transparent programmable protocols f
 3. **TGA** — Rental Guarantee Token (*Token de Garantia de Aluguel*)
 4. **Property Tokenization** — Fractionalized property ownership
 
-## Repos
-
-| Repo | Purpose |
-|------|---------|
-| [`sgr`](https://github.com/tga-protocol/sgr) | Strategy, brand, whitepaper, shared specs |
-| [`sgr-app`](https://github.com/tga-protocol/sgr-app) | Dashboard — Next.js, Privy, Stellar, Convex |
-| [`sgr-solana`](https://github.com/tga-protocol/sgr-solana) | Solana implementation |
-| [`sgr-stellar`](https://github.com/tga-protocol/sgr-stellar) | Stellar implementation |
-
 ## Team
 
 - **Draau** — Founder, 5+ years Web3
