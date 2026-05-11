@@ -22,7 +22,7 @@ accessible to anyone, operating on two fronts:
   
 ## Team
 - **Draau** — Web3 Builder, 5+ years in blockchain
-- **jubs** — Fullstack development & design
+- **Jubs** — Fullstack development & design
 
 ## Access
 
