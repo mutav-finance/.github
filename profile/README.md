@@ -2,7 +2,7 @@
 
  > REAL ASSET · REAL YIELD
  
-Turning Brazilian rental guarantees into a real-yield onchain asset. Real contracts. Real yield.
+Turning Brazilian rental guarantees into a real-yield onchain asset. Real assets. Real yield.
 
 ## The idea
 
