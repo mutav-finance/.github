@@ -2,7 +2,7 @@
 
  > Real guarantees with reserves built to be checked
  
-MUTAV is an institutional guarantor for Brazilian rentals. Tenants get a rental guarantee (Lei 8.245/91 art. 37 II) instead of a personal guarantor or a multi-month deposit, and real-estate agencies offer it through the leases they already run. Every guarantee is backed by an on-chain reserve that audit by the rental agencies. 
+MUTAV is an institutional guarantor for Brazilian rentals. Tenants get a rental guarantee (Lei 8.245/91 art. 37 II) instead of a personal guarantor or a multi-month deposit, and real-estate agencies offer it through the leases they already run. Every guarantee is backed by an on-chain reserve that rental agencies can audit.
 
 Transparency stops being a promise and becomes the product.
 
@@ -12,7 +12,7 @@ www.mutav.finance/en
   
 Brazil has 17.8M rented households (IBGE, 2024), a 45.4% increase since 2016. High interest rates make mortgages more expensive, pushing more families toward renting. Today, 49% of rental agreements use paid guarantees (Forcecure, 2024), representing a market worth approximately $11B annually. Brazil's 74,000 real-estate agencies sit at the center of this market, connecting tenants, landlords, and guarantee providers.
 
-Yet **the reserves backing these guarantees remain a black box.** Agencies cannot independently verify whether providers have the funds to honor their commitments. In 2025, a big proptech shut down the operation, leaving +45,000 contracts without coverage (InfoMoney, 2025). Even when guarantees hold, payouts can take 60–90 days, forcing agencies to advance rent from their own cash.    
+Yet **the reserves backing these guarantees remain a black box.** Agencies cannot independently verify whether providers have the funds to honor their commitments. In 2025, a big proptech shut down the operation, leaving +45,000 contracts without coverage (InfoMoney, 2025). Even when guarantees hold, payouts can take 60 to 90 days, forcing agencies to advance rent from their own cash.    
 
   ## How it works
 
@@ -29,20 +29,18 @@ The MUTAV protocol is organized across different repositories, covering the Sola
 
 | Repo                  | What it is                                                                                                   |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|
-| mutav-protocol-solana | The reserve program on Solana. 
-|
-| mutav-app             | The plataform: the agency and operator apps plus the MUTAV API.
-|
-| mutav-stellar         | Soroban Fund contract and TypeScript SDK, built in the NearX acceleration program.                           |
-| mutav-pulse           | Solvency-gated reserve vault on Stellar, built for the Stellar Pulso hackathon.                              |
+| [mutav-protocol-solana](https://github.com/mutav-finance/mutav-protocol-solana) | The reserve program on Solana. |
+| [mutav-app](https://github.com/mutav-finance/mutav-app) | The platform: the agency and operator apps plus the MUTAV API. |
+| [mutav-stellar](https://github.com/mutav-finance/mutav-stellar) | Soroban Fund contract and TypeScript SDK, built in the NearX acceleration program.                           |
+| [mutav-pulse](https://github.com/mutav-finance/mutav-pulse) | Solvency-gated reserve vault on Stellar, built for the Stellar Pulso hackathon.                              |
 
 ## Team
-- **draaujpeg** — Cofounder and CEO. Five years building blockchain products and the brands around them; grew up in a family with 30+ years in Brazilian real estate.
-- **Jubscode** — Cofounder and CTO. Architect, designer and engineer; builds the product end to end, from systems architecture and UX to on-chain infrastructure.
+- **[draaujpeg](https://github.com/draaujpeg)**, Cofounder and CEO. Five years building blockchain products and the brands around them; grew up in a family with 30+ years in Brazilian real estate.
+- **[jubscodes](https://github.com/jubscodes)**, Cofounder and CTO. Architect, designer and engineer; builds the product end to end, from systems architecture and UX to on-chain infrastructure.
 
 ## Access
 
 | Team | Permission | Who |
 |------|-----------|-----|
-| **builders** | Maintain — push branches, open & merge PRs, manage issues | Core contributors |
-| **judges** | Read — view code, issues, and PRs (no write access) | Hackathon & competition evaluators |
+| **builders** | Maintain: push branches, open & merge PRs, manage issues | Core contributors |
+| **judges** | Read: view code, issues, and PRs (no write access) | Hackathon & competition evaluators |
