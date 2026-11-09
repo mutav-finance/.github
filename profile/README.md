@@ -2,7 +2,7 @@
 
 > **Rental guarantee · Garantia locatícia**
 
-MUTAV is building a better rental guarantee for Brazil: faster, closer and transparent. The reserve behind each guarantee will sit on-chain, so agencies, tenants and landlords can check for themselves that the cover is there.
+MUTAV is building rental guarantee infrastructure for Brazil's real-estate market. Agencies get faster approvals and in-person support. The reserve behind each guarantee will sit on-chain, so agencies, tenants and landlords can check for themselves that the cover is there.
 
 ## Where we are
 
