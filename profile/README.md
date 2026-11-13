@@ -30,7 +30,7 @@ The MUTAV protocol is organized across different repositories, covering the Sola
 | Repo | What it is | State |
 |------|------------|-------|
 | [mutav-protocol-solana](https://github.com/mutav-finance/mutav-protocol-solana) | The reserve program on Solana. | Deployed on devnet, pre-external-audit |
-| [mutav-app](https://github.com/mutav-finance/mutav-app) | The platform: the agency and operator apps plus the MUTAV API. | Live (app, admin) |
+| [mutav-app](https://github.com/mutav-finance/mutav-app) | The platform: the agency and operator apps plus the MUTAV API. | Deployed, pre-launch (app, admin) |
 | [mutav-stellar](https://github.com/mutav-finance/mutav-stellar) | Soroban reserve contract and TypeScript SDK, built in the NearX acceleration program. | Proof of concept |
 | [mutav-pulse](https://github.com/mutav-finance/mutav-pulse) | Reserve vault on Stellar, gated by required coverage, built for the Stellar Pulso hackathon. | Proof of concept (hackathon) |
 
