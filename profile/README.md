@@ -1,45 +1,38 @@
 # MUTAV Finance
 
- > Real guarantees with reserves built to be checked
- 
+> Real guarantees with reserves built to be checked
+
 MUTAV is an institutional guarantor for Brazilian rentals. Tenants get a rental guarantee (Lei 8.245/91 art. 37 II) instead of a personal guarantor or a multi-month deposit, and real-estate agencies offer it through the leases they already run. Every guarantee will be backed by an on-chain reserve that rental agencies can audit.
 
 Transparency stops being a promise and becomes the product.
 
 www.mutav.finance/en
 
-  ## The market
-  
-Brazil has 17.8M rented households (IBGE, 2024), a 45.4% increase since 2016. High interest rates make mortgages more expensive, pushing more families toward renting. Today, 49% of rental agreements use paid guarantees (Forcecure, 2024), representing a market worth approximately $11B annually. Brazil's 74,000 real-estate agencies sit at the center of this market, connecting tenants, landlords, and guarantee providers.
+## How it works
 
-Yet **the reserves backing these guarantees remain a black box.** Agencies cannot independently verify whether providers have the funds to honor their commitments. In 2025, a big proptech shut down the operation, leaving +45,000 contracts without coverage (InfoMoney, 2025). Even when guarantees hold, payouts can take 60 to 90 days, forcing agencies to advance rent from their own cash.    
+1. Contract. The agency offers MUTAV as an alternative to a personal guarantor or security deposit.
+2. Monthly fee. The tenant pays a monthly fee alongside rent. Part covers MUTAV's operations; the rest builds the reserve.
+3. Reserve assets. During the pilot the reserve holds BRS, a BRL stablecoin. Tokenized Brazilian government bonds are planned.
+4. Late rent. The agency submits a claim, MUTAV verifies it, and the reserve funds the payment to the agency. MUTAV then initiates the debt recovery process with the tenant.
+5. Coverage gate. New guarantees are issued only when the reserve has sufficient coverage for all active contracts. The gate blocks new guarantees only; it does not block claims on active ones.
+6. Outside capital. The pilot runs on MUTAV's own capital. Once the operation is proven, the model allows outside capital to back guarantee coverage only through a regulated vehicle, after legal review. All reserve activity will be publicly verifiable on Solana.
 
-  ## How it works
-
-  1. Contract. The agency offers MUTAV as an alternative to a personal guarantor or security deposit.
-  2. Monthly fee. The tenant pays a monthly fee alongside rent. Part covers MUTAV's operations; the rest builds the reserve.
-  3. Reserve assets. During the pilot the reserve holds BRS, a BRL stablecoin. Tokenized Brazilian government bonds come next, with all their yield going back into the reserve.
-  4. Late rent. The agency submits a claim, MUTAV verifies it, and the reserve funds the payment to the agency. MUTAV then initiates the debt recovery process with the tenant.
-  5. Coverage gate. New guarantees are issued only when the reserve has sufficient coverage for all active contracts. Existing claims are never blocked.
-  6. Outside capital. The pilot runs on MUTAV's own capital. Once the operation is proven, the model allows outside capital to back guarantee coverage through a regulated vehicle for eligible investors, with returns from fees and reserve yield. All reserve activity will be publicly verifiable on Solana.
-  
 ## Where we are
 
 - **Today:** a demo at [reserve.mutav.finance](https://reserve.mutav.finance) and the Squads multisig on Solana that operations will start from. There is no operating reserve yet.
 - **Next:** the multisig becomes the pilot reserve, holding BRS (a BRL stablecoin), followed by the audited MUTAV vault program.
-- **19 agencies** have seen our prototype and signed letters of intent.
 - The pilot is **not open to public investment**.
 
 ## Protocol repos
 
 The MUTAV protocol is organized across different repositories, covering the Solana and Stellar implementations, core applications and supporting infrastructure:
 
-| Repo                  | What it is                                                                                                   |
-|-----------------------|--------------------------------------------------------------------------------------------------------------|
-| [mutav-protocol-solana](https://github.com/mutav-finance/mutav-protocol-solana) | The reserve program on Solana. |
-| [mutav-app](https://github.com/mutav-finance/mutav-app) | The platform: the agency and operator apps plus the MUTAV API. |
-| [mutav-stellar](https://github.com/mutav-finance/mutav-stellar) | Soroban Fund contract and TypeScript SDK, built in the NearX acceleration program.                           |
-| [mutav-pulse](https://github.com/mutav-finance/mutav-pulse) | Solvency-gated reserve vault on Stellar, built for the Stellar Pulso hackathon.                              |
+| Repo | What it is | State |
+|------|------------|-------|
+| [mutav-protocol-solana](https://github.com/mutav-finance/mutav-protocol-solana) | The reserve program on Solana. | Deployed on devnet, pre-external-audit |
+| [mutav-app](https://github.com/mutav-finance/mutav-app) | The platform: the agency and operator apps plus the MUTAV API. | Live (app, admin) |
+| [mutav-stellar](https://github.com/mutav-finance/mutav-stellar) | Soroban reserve contract and TypeScript SDK, built in the NearX acceleration program. | Proof of concept |
+| [mutav-pulse](https://github.com/mutav-finance/mutav-pulse) | Reserve vault on Stellar, gated by required coverage, built for the Stellar Pulso hackathon. | Proof of concept (hackathon) |
 
 [mutav-fund](https://github.com/mutav-finance/mutav-fund) is retired.
 
